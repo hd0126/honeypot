@@ -1,0 +1,16 @@
+=== RULE CROSS-REF ===
+prompt-designer.md CONTENT-ONLY: 3
+renderer-agent.md Cross-contamination: 6
+prompt-validator.md Korean Hallucination: 3
+=== 5D CONSISTENCY ===
+script korean_hallucination_detection: 9
+script content_reference_accuracy: 6
+SKILL.md dimensions: 3
+=== CONCEPT EXEMPTION ===
+prompt-designer.md: 1
+prompt-validator.md: 1
+generate_slide_images.py: 3
+=== ANTI-HALLUCINATION ===
+prompt-designer.md: 1
+renderer-agent.md: 4
+=== VERDICT: APPROVE ===

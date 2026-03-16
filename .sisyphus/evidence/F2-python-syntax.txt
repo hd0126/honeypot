@@ -1,0 +1,31 @@
+=== PYTHON SYNTAX ===
+SYNTAX OK
+=== MARKDOWN STRUCTURE ===
+prompt-designer ## count:
+12
+prompt-validator ### count:
+8
+SKILL.md ## count:
+6
+=== FRONTMATTER ===
+prompt-designer:
+2
+renderer-agent:
+2
+prompt-validator:
+2
+SKILL.md:
+2
+=== LOGIC CHECK ===
+evaluate_image_quality signature:
+def evaluate_image_quality(client, image_path: str, prompt_text: str = "") -> dict:
+5D average:
+        avg_score = sum(criteria.values()) / 5.0
+is_concept:
+    is_concept = (
+        if is_concept:
+        if is_concept:
+KOREAN_MIN_THRESHOLD:
+KOREAN_MIN_THRESHOLD = 5.0
+            and korean_readability >= KOREAN_MIN_THRESHOLD
+            and korean_hallu >= KOREAN_MIN_THRESHOLD

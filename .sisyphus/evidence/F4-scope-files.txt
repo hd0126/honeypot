@@ -1,0 +1,26 @@
+=== CHANGED FILES (last 3 commits) ===
+.claude-plugin/marketplace.json
+plugins/visual-generator/agents/prompt-designer.md
+plugins/visual-generator/agents/prompt-validator.md
+plugins/visual-generator/agents/renderer-agent.md
+plugins/visual-generator/.claude-plugin/plugin.json
+plugins/visual-generator/skills/slide-renderer/references/scene-richness-spec.md
+plugins/visual-generator/skills/slide-renderer/scripts/generate_slide_images.py
+plugins/visual-generator/skills/slide-renderer/SKILL.md
+
+=== FORBIDDEN FILE CHECK ===
+visual-generate.md count: 0
+theme-*/SKILL.md count: 0
+new plugin files: 0
+
+=== VERSION CHECK ===
+  "version": "3.1.0",
+      "version": "3.1.0",
+
+=== CONTENT COVERAGE ===
+plugins/visual-generator/agents/prompt-designer.md
+plugins/visual-generator/agents/renderer-agent.md
+plugins/visual-generator/agents/prompt-validator.md
+plugins/visual-generator/skills/slide-renderer/scripts/generate_slide_images.py
+plugins/visual-generator/skills/slide-renderer/references/scene-richness-spec.md
+plugins/visual-generator/skills/slide-renderer/SKILL.md
