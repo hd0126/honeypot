@@ -76,6 +76,9 @@ def pack(input_dir: str, hwpx_path: str) -> None:
                     except Exception:
                         pass  # Fall through to regex fallback.
 
+                if generated:
+                    continue
+
                 if not generated:
                     # Regex fallback: strip stale linesegarray.
                     data = full_path.read_bytes()
